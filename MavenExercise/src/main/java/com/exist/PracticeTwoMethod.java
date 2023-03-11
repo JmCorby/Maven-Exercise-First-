@@ -88,7 +88,7 @@ public class PracticeTwoMethod {
         int rowIndex = 1;
         
         dataRows.stream().forEach(dataRow ->  {
-			System.out.println("");
+			System.out.print("\n");
             dataRow.entrySet().stream().forEach(cell -> {
                 String key = cell.getKey();
                 String value = cell.getValue();
